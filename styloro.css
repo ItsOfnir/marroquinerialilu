@@ -1,0 +1,27 @@
+.imagenesp{
+    justify-content: center;
+    padding: 0%;
+    border-top: 0%;
+}
+.g-4setmatero{
+    padding-left: 5%;
+    padding-right: 5%;
+    
+ }
+ .card-body{
+     border-radius: 40%;
+     color: #f4ece0;
+ }
+ h4{
+     text-align: center;
+     font-size: larger;
+     background-color: orange;
+     
+ }
+ h5{
+     text-align: center;
+     background-color: rgb(243, 209, 158);
+     margin: 8%;
+     color: rgb(106, 104, 104);
+ }
+ 
