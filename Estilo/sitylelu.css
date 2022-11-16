@@ -1,0 +1,35 @@
+/* estilos del footer */
+
+.cuerpofooter{
+    
+    background-color: #bb744d;
+    font-size:medium;color: #fff;   
+    padding-top: 25px;
+}
+.cajaderedesfooter{
+   text-align: center;
+}
+.ordenfoter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+@media(max-width: 800px){
+    .ordenfoter{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+.logof{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fcfbfb;
+}
+.logoflilu{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
