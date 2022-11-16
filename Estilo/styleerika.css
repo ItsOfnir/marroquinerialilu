@@ -1,0 +1,25 @@
+/*  color body */
+.fondo-body {
+    background-color: rgb(244,236,224);
+    background: linear-gradient(146deg, rgba(244,236,224,1) 12%, rgba(222,185,164,1) 31%, rgba(187,116,77,1) 50%, rgba(182,179,177,1) 80%);
+}
+/* inicio de contacto */
+.columnas-contacto {
+    display: flex;
+    padding: 10px;
+    justify-content:space-between;
+    border: 10px;
+}
+.ancho {
+    width: 500px;
+    height: 500px;
+}
+p.erika  {
+    padding: 20px;
+    font-size: 15px;
+}
+
+.h2-contacto { 
+    margin: 15px;
+    padding: 20px;   
+}
