@@ -14,13 +14,15 @@
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    padding: 20px;
 }
-@media(max-width: 800px){
+@media(max-width: 600px){
     .ordenfoter{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-    }
+        padding: 20px;
+    } 
     
 }
 .logof{
@@ -29,8 +31,23 @@
     border-radius: 50%;
     background-color: #fcfbfb;
 }
-.logoflilu{
-    width: 100px;
-    height: 100px;
+
+.logof1{
+    width: 65px;
+    height: 60px;
+    border-radius: 50%; 
+    margin-bottom: 10px;
+
+}
+.b{
+    padding-top: 8px;
+}
+.espaciof{
+    border: 10px 
+}
+.logof2{
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    margin-bottom: 15px;
 }

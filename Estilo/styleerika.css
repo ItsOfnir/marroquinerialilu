@@ -1,8 +1,11 @@
 /*  color body */
 .fondo-body {
-    background-color: rgb(244,236,224);
-    background: linear-gradient(146deg, rgba(244,236,224,1) 12%, rgba(222,185,164,1) 31%, rgba(187,116,77,1) 50%, rgba(182,179,177,1) 80%);
+    background-color: aliceblue;
 }
+
+    /* background-color: rgb(244,236,224);
+    background: linear-gradient(146deg, rgba(244,236,224,1) 12%, rgba(222,185,164,1) 31%, rgba(187,116,77,1) 50%, rgba(182,179,177,1) 80%);
+ */
 /* inicio de contacto */
 .columnas-contacto {
     display: flex;
@@ -16,8 +19,10 @@
     align-content: center;
 }
 p.erika  {
-    padding: 20px;
+    padding: 10px;
     font-size: 20px;
+    text-align: center;
+
 }
 
 .h2-contacto { 
@@ -27,16 +32,36 @@ p.erika  {
 }
 .widthcont{
     width: 48rem;
-    height: 48rem;
+    height: 48rem;   
+    justify-content:center ;
+    padding-left: 50px;
+}
+.widthcont2{
+    width: 48rem;
+    height: 48rem;   
+    padding-top: 80px;
+    padding-left: 50px;
     align-self: center;
 }
+.widthcont1{
+    width: 48rem;
+    height: 48rem;
+    align-self: center;
+    padding: 20px;
+}
 .imgcont{
-    width: 46rem; 
+    width: 40rem; 
     height: 38rem;
     align-self: center;
 }
+.mapa{
+    width: 600px;
+    height: 600px;
 
-@media(max-width: 800px){
+    
+}
+
+@media(max-width: 900px){
     .columnas-contacto{
         flex-direction: column;
         align-items: center;
@@ -58,6 +83,18 @@ p.erika  {
     p.erika  {
         padding: 20px;
         font-size: 15px;
+    }
+   
+    .widthcont1{
+        width: 30rem;
+        height: 48rem;
+        align-self: center;
+        padding: none;
+    } 
+
+    .mapa{
+        width: 27rem;
+        height: 27rem;
     }
     
 
