@@ -109,14 +109,15 @@
 }
 @media(max-width: 768px){   
     .card{
-        width: 400px;
-        justify-content: center;
+        width: 50%;
+        justify-content: center;      
         margin-left: 25px;
         
     }
     .card-img-top{
         width: 350px;
         height: 250px;
+        align-items: center;
     }
    
 }
