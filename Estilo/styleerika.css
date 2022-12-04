@@ -68,7 +68,7 @@ p.erika  {
     }
     .widthcont{
         width: 30rem;
-        margin-left: none;
+        margin-right: 15px;
     } 
    
     p.erika  {
@@ -81,6 +81,7 @@ p.erika  {
         height: 48rem;
         justify-content: center;
         padding-right: 10px;
+        margin-right: 25px;
     } 
 
     .mapa{

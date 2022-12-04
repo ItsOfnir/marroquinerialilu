@@ -111,6 +111,7 @@
     .card{
         width: 400px;
         justify-content: center;
+        margin-left: 25px;
         
     }
     .card-img-top{
