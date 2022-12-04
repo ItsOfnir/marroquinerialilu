@@ -31,6 +31,9 @@
     border-radius: 50%;
     background-color: #fcfbfb;
 }
+.logot{
+    border-radius: 50%;
+}
 
 .logof1{
     width: 65px;
@@ -43,7 +46,8 @@
     padding-top: 8px;
 }
 .espaciof{
-    border: 10px 
+    border: 10px; 
+    padding:25px;
 }
 .logof2{
     width: 50px;
