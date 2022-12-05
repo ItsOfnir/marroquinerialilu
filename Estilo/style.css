@@ -36,7 +36,7 @@
 /* nav */
 .navegacion{
     background-color: #bb744d;
-    font-size: 15px;   
+    font-size: 15px;  
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -109,9 +109,9 @@
 }
 @media(max-width: 768px){   
     .card{
-        width: 50%;
+        width:350px;
         justify-content: center;      
-        margin-left: 25px;
+        margin-left: 35px;
         
     }
     .card-img-top{

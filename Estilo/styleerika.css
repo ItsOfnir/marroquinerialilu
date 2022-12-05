@@ -2,10 +2,6 @@
 .fondo-body {
     background-color: aliceblue;
 }
-
-    /* background-color: rgb(244,236,224);
-    background: linear-gradient(146deg, rgba(244,236,224,1) 12%, rgba(222,185,164,1) 31%, rgba(187,116,77,1) 50%, rgba(182,179,177,1) 80%);
- */
 /* inicio de contacto */
 .columnas-contacto {
     display: flex;
@@ -24,7 +20,6 @@ p.erika  {
     text-align: center;
 
 }
-
 .h2-contacto { 
     margin: 15px;
     padding: 20px;  
@@ -49,12 +44,10 @@ p.erika  {
     align-self: center;
     padding: 20px;
 }
-
 .mapa{
     width: 600px;
     height: 600px;    
 }
-
 @media(max-width: 1050px){
     .columnas-contacto{
         flex-direction: column;
@@ -82,12 +75,14 @@ p.erika  {
         justify-content: center;
         padding-right: 10px;
         margin-right: 25px;
+    }
+    .img1{
+        height: 27rem;
     } 
 
     .mapa{
         width: 23rem;
         height: 27rem;
-    }
-    
+    }    
 
 }
